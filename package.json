@@ -1,0 +1,63 @@
+{
+  "name": "visa-application-ug-au",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "npm": "6.13.6",
+    "node": "12"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "add": "^2.0.6",
+    "axios": "^0.19.2",
+    "ckeditor4-react": "^1.1.0",
+    "cloudinary-react": "^1.5.0",
+    "gsap": "^3.2.6",
+    "he": "^1.2.0",
+    "html-react-parser": "^0.10.3",
+    "install": "^0.13.0",
+    "jodit-react": "^1.0.42",
+    "node-sass": "^4.14.0",
+    "react": "^16.13.1",
+    "react-chat-elements": "^10.9.2",
+    "react-dom": "^16.13.1",
+    "react-loader": "^2.4.7",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.1",
+    "react-scroll": "^1.7.16",
+    "react-select": "^3.1.0",
+    "react-spinners": "^0.8.3",
+    "react-switch": "^5.0.1",
+    "react-toastify": "^6.0.2",
+    "read-more-react": "^1.0.10",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0",
+    "suneditor-react": "^2.10.1",
+    "yarn": "^1.22.4"
+  },
+  "scripts": {
+    "start": "set HTTPS=true&&react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

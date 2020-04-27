@@ -1,0 +1,17 @@
+.not-logged-in {
+    p {
+        color: #8c8c8c;
+        font-size: 13px;
+
+        span {
+            font-weight: bolder;
+            color: #0036ca;
+            cursor: pointer;
+        }
+        span:hover {
+            color: #046d12;
+
+        }
+    }
+
+}

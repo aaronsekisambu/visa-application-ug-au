@@ -1,0 +1,90 @@
+.dashboard-side-nav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    // background-color: #edf2f9;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding: 3em 8px 6px 3em;
+    font-family: -apple-system,
+        Poppins,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        "Helvetica Neue",
+        Arial,
+        sans-serif,
+        "Apple Color Emoji",
+        "Segoe UI Emoji",
+        "Segoe UI Symbol";
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: space-between;
+
+    .dashboard-humbugger {
+        cursor: pointer;
+
+        .dashboard-close-btn {
+            font-size: 30px;
+        }
+    }
+
+    li {
+        padding: 2px 0 1em 0;
+        font-weight: lighter !important;
+        border-bottom: .5px solid #f5f3f3;
+        cursor: pointer;
+        a {
+            text-decoration: none;
+            font-size: 14px;
+            color: #5e6e82;
+            display: block;
+            transition: 0.3s;
+            text-transform: none;
+            cursor: pointer;
+        }
+
+        a:hover {
+            color: #1a1e24;
+        }
+    }
+
+    .navigation-link-dashboard{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        cursor: pointer;
+       .icon {
+           padding: 0 .3em 0 0;
+           font-weight: lighter;
+       }
+       .show {
+           padding: 0 0 0 .5em;
+       }
+    }
+}
+
+.dashboard-main {
+    transition: margin-left .5s;
+    margin-left: 250px;
+    // padding: 16px;
+}
+
+.logout-dashboard {
+    cursor: pointer;
+}
+
+.logout-dashboard:hover{
+    color: brown;
+}
+
+.css-cx5dys{
+    background-color: white;
+}
+
+// switch icon
+

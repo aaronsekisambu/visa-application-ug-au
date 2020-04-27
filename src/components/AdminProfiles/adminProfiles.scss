@@ -1,0 +1,15 @@
+.admin-profile-image {
+    height: 300px;
+    width: 330px;
+    object-fit: cover;
+}
+
+.person {
+    width: 300px;
+    padding: 1em;
+    text-align: right;
+
+    p {
+        font-size: 12px;
+    }
+}

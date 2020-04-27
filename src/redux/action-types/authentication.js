@@ -1,0 +1,6 @@
+export const REGISTER = "REGISTER";
+export const FAILED_TO_REGISTER = "FAILED_TO_REGISTER";
+
+export const GET_USERS = "GET_USERS";
+export const FAILED_TO_GET_USERS = "FAILED_TO_GET_USERS";
+

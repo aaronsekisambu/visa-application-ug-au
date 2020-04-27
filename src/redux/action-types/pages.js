@@ -1,0 +1,8 @@
+export const UPLOAD_PAGES = "UPLOAD_PAGES";
+export const FAILED_TO_UPLOAD_PAGE = "FAILED_TO_UPLOAD_PAGE";
+
+export const GET_ALL_PAGES = "GET_ALL_PAGES";
+export const FAILED_TO_GET_ALL_PAGES = "FAILED_TO_GET_ALL_PAGES";
+
+export const GET_A_PAGE = "GET_A_PAGE";
+export const FAILED_TO_GET_A_PAGE = "FAILED_TO_GET_A_PAGE";
