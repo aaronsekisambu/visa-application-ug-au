@@ -145,6 +145,11 @@ const App = (props) => {
 								component={() => <MasterPage type="admin-profiles" information={visaApplication} />}
 							/>
 							<Route
+								exact
+								path="/media"
+								component={() => <MasterPage type="media" information={visaApplication} />}
+							/>
+							<Route
 								exacts
 								path="/public-notice-board"
 								component={() => <MasterPage type="public-notice-board" information={publicNotice} />}

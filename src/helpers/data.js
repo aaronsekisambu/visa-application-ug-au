@@ -211,15 +211,15 @@ export const navigationList = {
 			link: '/about-us',
 			subLink: [
 				{
+					id: '056',
+					name: 'Media',
+					link: '/media',
+				},
+				{
 					id: '001',
 					name: 'Admin Profiles',
 					link: '/admin-profile',
 				},
-				// {
-				// 	id: '002',
-				// 	name: 'Banks In Uganda',
-				// 	link: '/banks-In-Uganda',
-				// },
 			],
 		},
 		// {

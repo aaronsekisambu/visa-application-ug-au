@@ -54,7 +54,7 @@ const Home = (props) => {
 	return (
 		<Fragment>
 			<div className="">
-				<div className="home">
+				{/* <div className="home">
 					<aside className="side-a">
 						<div className="messages bg-light p-2">
 							<h3 className="h3 text-primary">
@@ -77,7 +77,7 @@ const Home = (props) => {
 						</div>{' '}
 						<div className="messages bg-light p-2">
 							{/* <h3 className="h3 text-primary">Another title here</h3> */}
-							<img
+							{/* <img
 								src="https://canberra.mofa.go.ug/files/media/Independence%20Day.jpg"
 								alt="musevni"
 								className="message-img"
@@ -140,7 +140,7 @@ const Home = (props) => {
 							</div>
 						</div>
 					</aside>
-				</div>
+				</div> */}
 				<HelpChat />
 			</div>
 		</Fragment>
