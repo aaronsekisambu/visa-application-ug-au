@@ -17,13 +17,90 @@ export const options = [{
 		label: 'Professional'
 	},
 ];
-export const cities = [{
-		value: 'kampala',
-		label: 'Kampala'
+export const cities = [
+	{
+		value: 'sydney',
+		label: 'Sydney'
 	},
 	{
-		value: 'another',
-		label: 'Another'
+		value: 'albury',
+		label: 'Albury'
+	},
+	{
+		value: 'armidale',
+		label: 'Armidale'
+	},
+	{
+		value: 'bathurst',
+		label: 'Bathurst'
+	},
+	{
+		value: 'bluemountains',
+		label: 'Blue Mountains'
+	},
+	{
+		value: 'brokenhill',
+		label: 'Broken Hill'
+	},
+	{
+		value: 'campbelltown',
+		label: 'Campbelltown'
+	},
+	{
+		value: 'cessnock',
+		label: 'Cessnock'
+	},
+	{
+		value: 'dubbo',
+		label: 'Dubbo'
+	},
+	{
+		value: 'grafton',
+		label: 'Grafton'
+	},
+	{
+		value: 'goulburn',
+		label: 'Goulburn'
+	},
+	{
+		value: 'lithgow',
+		label: 'Lithgow'
+	},
+	{
+		value: 'liverpool',
+		label: 'Liverpool'
+	},
+	{
+		value: 'newcastle',
+		label: 'Newcastle'
+	},
+	{
+		value: 'orange',
+		label: 'Orange'
+	},
+	{
+		value: 'parramatta',
+		label: 'Parramatta'
+	},
+	{
+		value: 'penrith',
+		label: 'Penrith'
+	},
+	{
+		value: 'queanbeyan',
+		label: 'Queanbeyan'
+	},
+	{
+		value: 'tamworth',
+		label: 'Tamworth'
+	},
+	{
+		value: 'waggawagga',
+		label: 'Wagga Wagga'
+	},
+	{
+		value: 'wollongong',
+		label: 'Wollongong'
 	},
 ];
 export const optionsGender = [{
