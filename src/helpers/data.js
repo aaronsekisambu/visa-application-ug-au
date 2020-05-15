@@ -194,11 +194,6 @@ export const navigationList = {
 			link: '/',
 		},
 		{
-			id: '001',
-			name: 'Media',
-			link: '/media',
-		},
-		{
 			id: '011',
 			name: 'Register',
 			link: '/register',
@@ -212,11 +207,6 @@ export const navigationList = {
 					id: '001',
 					name: 'About Embassy',
 					link: '/about-embassy',
-				},
-				{
-					id: '002',
-					name: 'Ambassador’s Message',
-					link: '/ambassador-message',
 				},
 				{
 					id: '003',
@@ -280,6 +270,11 @@ export const navigationList = {
 					link: '/banks-In-Uganda',
 				},
 			],
+		},
+		{
+			id: '001',
+			name: 'Media',
+			link: '/media',
 		},
 		{
 			id: '007',
