@@ -33,7 +33,7 @@ const Modal = (props) => {
 					<div className="modal-content">
 						<div className="modal-header">
 							<h5 className="modal-title" id="exampleModalScrollableTitle">
-								Visa Application form
+								Registration Form
 							</h5>
 							<button
 								type="button"

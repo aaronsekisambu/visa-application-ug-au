@@ -182,7 +182,6 @@ export const dashboardPages = [
 	'Why Invest In Uganda',
 	'Banks In Uganda',
 	// 'About us',
-	'Banks In Uganda',
 	'Admin Profiles',
 ];
 
@@ -330,14 +329,6 @@ export const links = {
 			name: 'Uganda Tourism Board',
 			link: 'http://www.visituganda.com/',
 		},
-		{
-			name: 'URA',
-			link: 'https://www.ura.go.ug/index.jsp',
-		},
-		{
-			name: 'NIRA',
-			link: 'http://www.nira.go.ug/',
-		},
 	],
 	relatedLinks: [
 		{
@@ -356,19 +347,11 @@ export const links = {
 			name: 'Uganda Tourism Board',
 			link: 'http://www.visituganda.com/',
 		},
-		{
-			name: 'Bank of Uganda',
-			link: 'http://www.bou.or.ug/bou/home.html',
-		},
-		{
-			name: 'Ministry of Tourism, Wildlife and Antiquities',
-			link: 'http://tourism.go.ug/',
-		},
 	],
 	tourismInUganda: [
 		{
 			name: 'Tourist Attractions',
-			link: 'http://www.ugandawildlife.org/',
+			link: 'https://www.tourism.go.ug/',
 		},
 		{
 			name: 'Travel and Tourism',
@@ -376,41 +359,29 @@ export const links = {
 		},
 		{
 			name: 'Ministry of Tourism, Wildlife and Antiquities',
-			link: 'http://www.agriculture.go.ug/',
+			link: 'https://www.tourism.go.ug/departments-1',
 		},
 		{
 			name: 'Uganda Wildlife Authority',
 			link: 'http://www.visituganda.com/',
 		},
-		{
-			name: 'Tour Operators',
-			link: 'http://www.bou.or.ug/bou/home.html',
-		},
-		{
-			name: 'ICT',
-			link: 'http://tourism.go.ug/',
-		},
 	],
 	government: [
 		{
 			name: 'State House',
-			link: 'http://www.ugandawildlife.org/',
+			link: 'https://www.statehouse.go.ug/government/cabinet',
 		},
 		{
 			name: 'The Cabinet',
-			link: 'http://www.ugandainvest.go.ug',
+			link: 'https://www.statehouse.go.ug/government/cabinet',
 		},
 		{
 			name: 'Parliament',
-			link: 'http://www.agriculture.go.ug/',
+			link: 'https://www.parliament.go.ug/',
 		},
 		{
 			name: 'Ministry of Foreign Affairs',
-			link: 'http://www.visituganda.com/',
-		},
-		{
-			name: 'Web Links to Ministries',
-			link: 'http://www.bou.or.ug/bou/home.html',
+			link: 'https://www.mia.go.ug/',
 		},
 	],
 };
