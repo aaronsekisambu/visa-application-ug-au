@@ -195,8 +195,8 @@ export const navigationList = {
 		},
 		{
 			id: '001',
-			name: 'Visa Application',
-			link: '/visa-application',
+			name: 'Media',
+			link: '/media',
 		},
 		{
 			id: '011',
@@ -286,11 +286,6 @@ export const navigationList = {
 			name: 'About us',
 			link: '/about-us',
 			subLink: [
-				{
-					id: '056',
-					name: 'Media',
-					link: '/media',
-				},
 				{
 					id: '001',
 					name: 'Admin Profiles',
