@@ -17,7 +17,7 @@ const Footer = (props) => {
 	return (
 		<Fragment>
 			<div className="footer">
-				<div className="container-fluid">
+				{/* <div className="container-fluid">
 					<div className="row justify-content-between">
 						<div className="government">
 							<span>The Government</span>
@@ -68,7 +68,7 @@ const Footer = (props) => {
 							</ul>
 						</div>
 					</div>
-				</div>
+				</div> */}
 				<div
 					className="end-footer pl-2 pr-2"
 					style={{
@@ -84,7 +84,7 @@ const Footer = (props) => {
 						/>
 					</div>
 					<div className="text-end">
-						The Republic of Uganda - Embassy of the Republic of Uganda, Australia, Canberra{' '}
+						The Republic of Uganda - Uganda High Commission Australia, Canaberra{' '}
 					</div>
 					{localStorage.getItem('token') ? (
 						<button className="btn btn-outline-light p-0 pl-2 pr-2" onClick={logout}>Logout</button>

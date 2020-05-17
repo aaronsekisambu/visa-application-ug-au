@@ -32,8 +32,6 @@ class Chat extends Component {
 				<div>
 					<MessageBox
 						position={'left'}
-						type={'photo'}
-						text={'react.svg'}
 						data={{
 							// uri: 'https://facebook.github.io/react/img/logo.svg',
 							status: {
@@ -48,11 +46,10 @@ class Chat extends Component {
 							message: 'Aliqua amet incididunt id nostrud',
 						}}
 						onReplyMessageClick={() => console.log('reply clicked!')}
-						position={'left'}
 						type={'text'}
-						text={'Tempor duis do voluptate enim duis velit veniam aute ullamco dolore duis irure.'}
+						text={'Tempor duis do voluptate enim '}
 					/>
-					<MessageList
+					{/* <MessageList
 						className="message-list"
 						lockable={true}
 						toBottomHeight={'100%'}
@@ -64,7 +61,7 @@ class Chat extends Component {
 								date: new Date(),
 							},
 						]}
-					/>
+					/> */}
 				</div>
 			</div>
 		);

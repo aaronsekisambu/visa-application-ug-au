@@ -66,7 +66,7 @@ const App = (props) => {
 					<div className="wrapper">
 						<div className="container-fluid">
 							<Landing />
-							<Route exact path="/" component={Home} />
+							<Route exact path="/" component={Authentication} />
 							<Route exact path="/auth" component={Authentication} />
 							{/* <Route exact path="/test" component={PageLayout} /> */}
 							<Route

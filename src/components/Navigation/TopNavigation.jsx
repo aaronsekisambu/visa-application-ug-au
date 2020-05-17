@@ -12,7 +12,7 @@ const TopNavigation = (props) => {
 	};
 	return (
 		<Fragment>
-			<nav
+			{/* <nav
 				className="navbar navbar-expand-lg navbar-light shadow-sm  top-fixed-top-nav-bar"
 				style={{ marginTop: '-0.5em' }}
 			>
@@ -28,9 +28,9 @@ const TopNavigation = (props) => {
 							Get Started
 						</button>
 					)} */}
-				</div>
+				{/* </div>
 				<NavigationList lists={socialMediaIcons} menuList="top-lists" />
-			</nav>
+			</nav> */}
 		</Fragment>
 	);
 };

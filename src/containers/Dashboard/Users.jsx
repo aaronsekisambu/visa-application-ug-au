@@ -78,8 +78,6 @@ const Users = (props) => {
 								<th>OriginArea</th>
 								<th>Address</th>
 								<th>Passport</th>
-								<th>Kin</th>
-								<th>KinRelationship</th>
 								<th>POR</th>
                             </tr>
                         </thead>
@@ -107,8 +105,6 @@ const Users = (props) => {
                                 <td>{OriginArea}</td>
                                 <td>{Address}</td>
                                 <td>{Passport}</td>
-								<td>{Kin}</td>
-                                <td>{Relationship}</td>
                                 <td>
 									<a href={ProofOfResidence}>Link</a>
 								</td>

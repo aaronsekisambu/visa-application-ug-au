@@ -34,7 +34,7 @@ const NavigationList = (props) => {
 	};
 	return (
 		<Fragment>
-			<ul
+			{/* <ul
 				className="navbar-nav mt-lg-0"
 				style={{
 					flexDirection: menuList === 'top-lists' || menuList !== 'menu' ? 'row' : 'column',
@@ -86,7 +86,7 @@ const NavigationList = (props) => {
 						</li>
 					);
 				})}
-			</ul>
+			</ul> */}
 		</Fragment>
 	);
 };

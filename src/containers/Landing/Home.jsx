@@ -19,7 +19,7 @@ const Home = (props) => {
 		if (token) {
 			localStorage.setItem('token', token);
 			const user = JSON.parse(atob(token.split('.')[1]));
-			user.isAdmin ? props.history.push('/dashboard-admins') : props.history.push('/');
+			user.isAdmin ? props.history.push('/dashboard-admins') : props.history.push('/register');
 		}
 		const updateWindowDimensions = () => {
 			setWidth(window.innerWidth);
