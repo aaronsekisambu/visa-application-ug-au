@@ -93,7 +93,7 @@ const Admins = (props) => {
                         <th>Image</th>
                         <th>Name</th>
                         <th>Email</th>
-                        <th>Actions</th>
+                        <th>Details</th>
                     </tr>
                 </thead>
                 {users.map((user, i) => {
