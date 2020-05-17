@@ -99,7 +99,7 @@ class Form extends Component {
 		}
 		const user = JSON.parse(atob(token.split('.')[1]));
 		if (user.isAdmin) {
-			return this.props.history.push('/dashboard');
+			return this.props.history.push('/dashboard-admins');
 		}
 	}
 

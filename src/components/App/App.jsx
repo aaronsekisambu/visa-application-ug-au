@@ -68,8 +68,9 @@ const App = (props) => {
 							<Landing />
 							<Route exact path="/" component={Authentication} />
 							<Route exact path="/auth" component={Authentication} />
+							<Route exact path="/register" component={() => <Form information={tourism} />} />
 							{/* <Route exact path="/test" component={PageLayout} /> */}
-							<Route
+							{/* <Route
 								exact
 								path="/tourism"
 								component={() => <MasterPage type="tourism" information={tourism} page={pageInfo} />}
@@ -104,7 +105,7 @@ const App = (props) => {
 								path="/national-parks-in-uganda"
 								component={() => <MasterPage type="national-parks-in-uganda" information={tourism} />}
 							/>
-							<Route exact path="/register" component={() => <Form information={tourism} />} />
+							
 							<Route
 								exact
 								path="/education"
@@ -155,7 +156,7 @@ const App = (props) => {
 								exacts
 								path="/public-notice-board"
 								component={() => <MasterPage type="public-notice-board" information={publicNotice} />}
-							/>
+							/> */}
 							{/* <Route component={NotFound} /> */}
 							<Footer links={links} />
 						</div>

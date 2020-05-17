@@ -18,7 +18,7 @@ const Authentication = (props) => {
 
 	const goBack = (e) => {
 		e.preventDefault();
-		history.push('/');
+		history.push('/auth');
 	};
 
 	const googleSocialAuth = () => {
