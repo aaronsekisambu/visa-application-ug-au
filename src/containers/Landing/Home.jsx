@@ -53,7 +53,7 @@ const Home = (props) => {
 	};
 	return (
 		<Fragment>
-			<div className="">
+			{/* <div className="">
 				<div className="home">
 					<aside className="side-a">
 						<div className="messages bg-light p-2">
@@ -92,7 +92,7 @@ const Home = (props) => {
 								/>
 							</div>
 						</div> */}
-					</aside>
+					{/* </aside>
 					<aside className="aside-b">
 						<div className="d-flex flx-row justify-content-around">
 							<div className="d-flex flex-column aside-more-info">
@@ -105,7 +105,7 @@ const Home = (props) => {
 										<a href="#" target="_blank">
 											H.E Professor Joyce Kakuramatsi Kikafunda
 										</a>
-									</div>
+									</div> */}
 									{/* <div>
 										{' '}
 										<img src={lwabi} alt="plane" />
@@ -113,7 +113,7 @@ const Home = (props) => {
 											Mr. Patrick Muganda Goma MINISTER COUNSELOR
 										</a>
 									</div>{' '} */}
-								</div>
+								{/* </div> */}
 								{/* <div>
 									{' '}
 									<img src={james} alt="plane" />
@@ -121,12 +121,12 @@ const Home = (props) => {
 										Ms. Tiisa Suzan Mugwanya THIRD SECRETARY
 									</a>
 								</div> */}
-							</div>
-						</div>
-					</aside>
-				</div>
-				<HelpChat />
-			</div>
+							{/* </div> */}
+						{/* </div> */}
+					{/* </aside> */}
+				{/* </div> */}
+				{/* <HelpChat /> */}
+			{/* </div> */}
 		</Fragment>
 	);
 };

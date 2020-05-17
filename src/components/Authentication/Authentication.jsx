@@ -14,7 +14,7 @@ const Authentication = (props) => {
 		}
 		const user = JSON.parse(atob(token.split('.')[1]));
 		user.isAdmin ? history.push('/dashboard-admins') : history.push('/register');
-	}, []);
+	}, [history]);
 
 	const goBack = (e) => {
 		e.preventDefault();
