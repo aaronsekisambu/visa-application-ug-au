@@ -13,7 +13,7 @@ const Authentication = (props) => {
 			return history.push('/auth');
 		}
 		const user = JSON.parse(atob(token.split('.')[1]));
-		user.isAdmin ? history.push('/dashboard-admins') : history.push('/');
+		user.isAdmin ? history.push('/dashboard-admins') : history.push('/register');
 	}, []);
 
 	const goBack = (e) => {
