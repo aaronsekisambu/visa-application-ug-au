@@ -54,14 +54,14 @@ const Home = (props) => {
 	return (
 		<Fragment>
 			<div className="">
-				{/* <div className="home">
+				<div className="home">
 					<aside className="side-a">
 						<div className="messages bg-light p-2">
 							<h3 className="h3 text-primary">
 								Address on the Corona virus (COVID 19) and guidelines on preventive measures
 							</h3>
 							<img
-								src="https://www.pmldaily.com/wp-content/uploads/2020/03/Museveni-11.jpg"
+								src="https://berlin.mofa.go.ug/files/media/Museveni%20on%20Covid19.jpg"
 								alt="musevni"
 								className="message-img"
 							/>
@@ -75,9 +75,9 @@ const Home = (props) => {
 								/>
 							</div>
 						</div>{' '}
-						<div className="messages bg-light p-2">
-							{/* <h3 className="h3 text-primary">Another title here</h3> */}
-							{/* <img
+						{/* <div className="messages bg-light p-2">
+							<h3 className="h3 text-primary">Another title here</h3>
+							<img
 								src="https://canberra.mofa.go.ug/files/media/Independence%20Day.jpg"
 								alt="musevni"
 								className="message-img"
@@ -91,26 +91,10 @@ const Home = (props) => {
 									readMoreText="Read more..."
 								/>
 							</div>
-						</div>
+						</div> */}
 					</aside>
 					<aside className="aside-b">
 						<div className="d-flex flx-row justify-content-around">
-							<div className="d-flex flex-column aside-info mr-2">
-								<div>
-									{' '}
-									<img src="https://canberra.mofa.go.ug/files/media/thCheptegei.jpg" alt="plane" />
-									<a href="$" target="_blank">
-										UGANDA'S JOSUA CHEPTEGEI WINS GOLD MEDAL IN MEN'S 5000 M
-									</a>
-								</div>
-								<div>
-									{' '}
-									<img src="https://canberra.mofa.go.ug/files/media/thJAT44631.jpg" alt="plane" />
-									<a href="#" target="_blank">
-										AMBASSADOR KIKAFUNDA PRESENTS CREDENTIALS TO GOVERNOR-GENERAL OF AUSTRALIA
-									</a>
-								</div>
-							</div>
 							<div className="d-flex flex-column aside-more-info">
 								{' '}
 								<div className="aside-more-info-top mb-3">
@@ -119,28 +103,28 @@ const Home = (props) => {
 										{' '}
 										<img src={patrickMuganda} alt="plane" />
 										<a href="#" target="_blank">
-											H.E. Professor Joyce Kakuramatsi Kikafunda HIGH COMMISSIONER
+											H.E Professor Joyce Kakuramatsi Kikafunda
 										</a>
 									</div>
-									<div>
+									{/* <div>
 										{' '}
 										<img src={lwabi} alt="plane" />
 										<a href="#" target="_blank">
 											Mr. Patrick Muganda Goma MINISTER COUNSELOR
 										</a>
-									</div>{' '}
+									</div>{' '} */}
 								</div>
-								<div>
+								{/* <div>
 									{' '}
 									<img src={james} alt="plane" />
 									<a href="#" target="_blank">
 										Ms. Tiisa Suzan Mugwanya THIRD SECRETARY
 									</a>
-								</div>
+								</div> */}
 							</div>
 						</div>
 					</aside>
-				</div> */}
+				</div>
 				<HelpChat />
 			</div>
 		</Fragment>

@@ -130,8 +130,8 @@ export const dashboardList = {
 	list: [
 		{
 			id: '000',
-			name: 'Dashboard',
-			link: '/dashboard',
+			name: 'Admins',
+			link: '/dashboard-admins',
 			icon: <i className="zmdi zmdi-view-dashboard"></i>,
 			show: <i className="zmdi zmdi-chevron-right"></i>,
 		},
@@ -156,13 +156,13 @@ export const dashboardList = {
 		// 	icon: <i className="zmdi zmdi-account-add"></i>,
 		// 	show: <i className="zmdi zmdi-chevron-right"></i>,
 		// },
-		{
-			id: '003',
-			name: 'Collection',
-			link: '/dashboard-collection',
-			icon: <i className="zmdi zmdi-collection-plus"></i>,
-			show: <i className="zmdi zmdi-chevron-right"></i>,
-		},
+		// {
+		// 	id: '003',
+		// 	name: 'Collection',
+		// 	link: '/dashboard-collection',
+		// 	icon: <i className="zmdi zmdi-collection-plus"></i>,
+		// 	show: <i className="zmdi zmdi-chevron-right"></i>,
+		// },
 	],
 };
 

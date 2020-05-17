@@ -19,6 +19,7 @@ import Footer from '../../containers/Landing/Footer';
 import PageLayout from '../../containers/Landing/PageLayout';
 import Collection from '../../containers/Dashboard/Collection';
 import Users from '../../containers/Dashboard/Users';
+import Admins from '../../containers/Dashboard/Admins';
 import DashboardSideNav from '../../containers/Dashboard/DashboardSideNav';
 import Chat from '../../containers/Dashboard/Chat';
 import { connect } from 'react-redux';
@@ -51,6 +52,7 @@ const App = (props) => {
 						<DashboardSideNav lists={dashboardList} />
 						<div className="dashboard-main">
 							{/* <Route exact path="/dashboard" component={Dashboard} /> */}
+							<Route exact path="/dashboard-admins" component={() => <Admins users={dashboardPages} />} />
 							<Route exact path="/dashboard-users" component={() => <Users users={dashboardPages} />} />
 							<Route
 								exact
