@@ -23,6 +23,14 @@ export const cities = [
 		label: 'Sydney'
 	},
 	{
+		value: 'melbourne',
+		label: 'Melbourne'
+	},
+	{
+		value: 'canberra',
+		label: 'Canberra'
+	},
+	{
 		value: 'albury',
 		label: 'Albury'
 	},
