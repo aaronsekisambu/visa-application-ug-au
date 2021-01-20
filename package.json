@@ -15,7 +15,7 @@
     "bootstrap": "^4.5.0",
     "ckeditor4-react": "^1.1.0",
     "cloudinary-react": "^1.5.0",
-    "gsap": "^3.2.6",
+    "gsap": "^3.6.0",
     "he": "^1.2.0",
     "html-react-parser": "^0.10.3",
     "install": "^0.13.0",
