@@ -20,7 +20,7 @@
     "html-react-parser": "^0.10.3",
     "install": "^0.13.0",
     "jodit-react": "^1.0.42",
-    "node-sass": "^4.14.0",
+    "node-sass": "^7.0.0",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
     "react-chat-elements": "^10.9.2",
